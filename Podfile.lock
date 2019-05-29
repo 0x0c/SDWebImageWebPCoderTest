@@ -32,19 +32,28 @@ PODS:
 
 DEPENDENCIES:
   - SDWebImage
-  - SDWebImageWebPCoder
+  - "SDWebImageWebPCoder (from `git@github.com:0x0c/SDWebImageWebPCoder.git`, branch `master`)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - libwebp
     - SDWebImage
-    - SDWebImageWebPCoder
+
+EXTERNAL SOURCES:
+  SDWebImageWebPCoder:
+    :branch: master
+    :git: "git@github.com:0x0c/SDWebImageWebPCoder.git"
+
+CHECKOUT OPTIONS:
+  SDWebImageWebPCoder:
+    :commit: 16ef0cf1a751ee4c652ed0a3116604ed27510ea1
+    :git: "git@github.com:0x0c/SDWebImageWebPCoder.git"
 
 SPEC CHECKSUMS:
   libwebp: b068a3bd7c45f7460f6715be7bed1a18fd5d6b48
   SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
   SDWebImageWebPCoder: 6e04bcaef15bdf033782b24663cc0c9881d9b745
 
-PODFILE CHECKSUM: 477666654fb587004c3dfe34c6aee11ae70980b7
+PODFILE CHECKSUM: 1401c9f5747a6daf5a4879c994ad9ec6d9e9c9b3
 
 COCOAPODS: 1.7.0
