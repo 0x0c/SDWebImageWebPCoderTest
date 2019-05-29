@@ -4,6 +4,5 @@ use_modular_headers!
 
 target 'SDWebImageWebPCoderTest' do
     pod 'SDWebImage'
-    pod 'SDWebImageWebPCoder'
+    pod 'SDWebImageWebPCoder', :git => 'git@github.com:0x0c/SDWebImageWebPCoder.git', :branch => 'master'
 end
-
